@@ -1,0 +1,62 @@
+/* Estilos para centrar la tarjeta en la página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Estilos para la tarjeta de perfil */
+.card {
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Estilos para el avatar */
+.avatar {
+    position: absolute;
+    top: -30px; /* En esta linea y la de abajo se posiciona la imagen arriba a la izquierda, queda mejor en el medio pero el ejercicio lo solicita asi */
+    left: 20px; 
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el título */
+h2 {
+    margin-top: 40px; 
+    font-size: 1.5em;
+    color: #333;
+}
+
+/* Estilos para el párrafo */
+p {
+    margin: 10px 0 20px;
+    color: #555;
+    font-size: 1em;
+}
+
+/* Estilos para el botón */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
